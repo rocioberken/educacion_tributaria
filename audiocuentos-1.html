@@ -1,0 +1,266 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<title>AGIP</title>
+		<link rel="stylesheet" type="text/css" href="css/css.css">
+		<link rel="stylesheet" type="text/css" href="css/responsive.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
+
+		<script type="text/javascript" src="scripts/jquery.js"></script>
+			<script type="text/javascript" src="scripts/jquery-ui.min.js"></script>
+			<script type='text/javascript' src="scripts/modernizr.js"></script>
+			<script type='text/javascript' src='scripts/bootstrap.min.js'></script>
+			<script type="text/javascript" src="scripts/acciones.js"></script>
+			<script type="text/javascript" src="scripts/fullcalendar.min.js"></script>
+			<script type="text/javascript" src="scripts/recaptcha_ajax.js"> </script>
+			<script src="scripts/modernizr.custom.js"></script>
+			<script src="scripts/jquerypp.custom.js"></script>
+			<script src="scripts/jquery.bookblock.js"></script>
+			<script src='scripts/jquery.zoom.js'></script>
+			<script src="scripts/acciones_libros.js"></script>
+			<script>
+
+			$(function(){
+		     $('a[href*=#]').click(function() {
+		     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+		         && location.hostname == this.hostname) {
+		             var $target = $(this.hash);
+		             $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
+		             if ($target.length) {
+		                 var targetOffset = $target.offset().top;
+		                 $('html,body').animate({scrollTop: targetOffset}, 1500);
+						return false;
+		            }}
+		        });
+		});
+
+	</script>
+</head>
+<body>		<div id="preloader"></div>
+
+
+   <div id="page-container" >
+   <div id="content-wrap" class="">
+	
+	<!-- header ----------------->
+	<!-- menu ------------------->
+	
+		<div class="container-fluid py-1 blanco" id="header-audio">		
+			<nav class="navbar navbar-expand-lg navbar-light ">
+				<a class="navbar-brand  wow bounce" data-wow-delay="300ms" href="index.html">
+					<img src="img/logo-educacion-tributaria.png">
+				</a>
+					<div class="seccion"> 
+						<a href="audiocuentos.html"><h2> Audio Cuentos</h2></a>
+					</div>
+					<div class="overlay1"></div>
+						<div class="burger" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
+						  <span></span>
+						</div>
+
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						     <ul class="navbar-nav " id="menu">
+								<li class="nav-item">
+									<a class="nav-link" href="index.html">
+										<span><img src="img/home.png"></span>
+										<br><br>
+										<span>Home</span>
+									</a>
+						      	</li>
+						    </ul> 
+
+						 <!-- <div class="navbar-collapse" id="navbarSupportedContent">
+						     <ul class="navbar-nav " id="menu">
+								<li class="nav-item">
+									<a class="nav-link" href="index.html">
+										<span><img src="img/home.png"></span><br><br>
+										<span>Home</span></a>
+						      	</li>
+						    </ul>					
+						</div> -->
+			</nav> 
+		</div>
+
+	<!--------- contenidos --------->			
+		
+		<div class="gradiente"></div>
+			<div class="container-fluid blanco" id="libro">
+ 				<div class="module-border-wrap">
+ 					<div class="module">
+						<div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+								<div class=" col-lg-10 col-md-10 col-sm-10 col-xs-12">	
+									<div class="libro-title">
+										<h2 class="">LIBRO</h2>
+										<span class="">AUDIO LIBROS / Libro 1 </span>
+									</div>
+								</div>
+								<span id="wait"></span>
+							<div class="container1">
+								<ul class="bb-custom-grid">
+									<li>
+										<div class="tapa">
+											<img src="img/libro1-big.png" alt="" class="p0 img-responsive relative col-lg-12 col-md-12 col-sm-12 col-xs-12"/></div>
+										<div id="nav">
+											<div onclick="cuento1(1);" class="color1 manito blanco">Zumbidos</div>
+											<div onclick="cuento1(2);" class="color2 manito blanco">Camila y Olga</div>
+											<div onclick="cuento1(3);" class="color3 manito blanco">El Club</div>
+											<div onclick="cuento1(4);" class="color4 manito blanco">Rinc&oacute;n de los Chicos</div>
+											<div onclick="cuento1(5);" class="color5 manito blanco">Iluminaciones</div>
+											<div onclick="cuento1(6);" class="color1 manito blanco">La Morada</div>
+											<div onclick="cuento1(7);" class="color2 manito blanco">Las Amigas</div>
+											<div onclick="cuento1(8);" class="color3 manito blanco">Los Hermanos</div>
+											<div onclick="cuento1(9);" class="color4 manito blanco">Trincity</div>
+											<div onclick="cuento1(10);" class="color5 manito blanco">Video Club de Bartolo</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+
+			<!--------- otros libros --------->			
+		
+		<div class="container-fluid blanco" id="audio">
+			<p class="libro-subt">
+					<img src="img/home.png">
+					<span>Libros</span> 
+			</p>
+ 					<div class="module">
+						<div class="libros">
+							<a href="audio-cuentos-1.html">
+								<img src="img/libro1.png">
+								<h3> Libro 1</h3>
+							</a>
+						</div>
+						<div class="libros">
+							<a href="audio-cuentos-2.html">
+								<img src="img/libro2.png">
+								<h3> Libro 2</h3>
+							</a>
+						</div>
+						<div class="libros">
+							<a href="audio-cuentos-3.html">
+								<img src="img/libro3.png">
+								<h3> Libro 3</h3>
+							</a>
+						</div>
+						<div class="libros">
+							<a href="audio-cuentos-4.html">
+								<img src="img/libro4.png">
+								<h3> Libro 4</h3>
+							</a>
+						</div>
+						<div class="libros">
+							<a href="audio-cuentos-5.html">
+								<img src="img/libro5.png">
+								<h3> Libro 5</h3>
+							</a>
+						</div>
+						
+					</div>
+				</div>
+			
+	<!-- footer ----------------------------->
+	
+	<footer id="footer" class="blanco">
+	 <div class="gradiente"></div>
+			
+		<div class="container">
+			<div class="row footer ">
+				<div class="text-center col-lg-2 col-sm-2 col-xs-12 ">
+					<img src="img/logo-agip.png">
+				</div>
+				<div class="text-center col-lg-8 col-sm-8 col-xs-12  ">
+					<p class="legal "> 
+						 Administraci&oacute;n Gubernamental de Ingresos P&uacute;blicos 
+						<br> <small class="text-muted">Copyright @ 2019</small> 
+					</p>
+				</div>
+				<div class="text-center col-lg-2 col-sm-2 col-xs-12 ">
+					<img src="img/logo-gob.png">
+				</div>
+			</div>
+		</div>	  	
+	</footer>
+
+</div> 
+</div>	
+	
+	<script type='text/javascript' src="scripts/wow.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('#leerMas').hover(function () {
+				$(this).addClass()
+			});
+		});
+		new WOW().init();
+	</script>
+
+	<script>
+      wow = new WOW(
+        {
+          animateClass: 'animated',
+          offset:       100,
+          callback:     function(box) {
+            console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+          }
+        }
+      );
+      wow.init();
+      document.getElementById('moar').onclick = function() {
+        var section = document.createElement('section');
+        section.className = 'section--purple wow fadeInDown';
+        this.parentNode.insertBefore(section, this);
+      };
+    </script>
+    <script>
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+      })
+    </script>
+  <script>
+      $('.ticket [data-toggle="tooltip"]').tooltip({
+        animated: 'fade',
+        placement: 'bottom',
+        html: true
+      });
+</script>
+	
+<script>
+    $('.burger').click(function(){
+      $('.burger').toggleClass('clicked');
+      $('.overlay1').toggleClass('show');
+      $('nav').toggleClass('show');
+      $('body').toggleClass('overflow1');
+    });
+  wow = new WOW(
+    {
+      animateClass: 'animated',
+      offset:       100,
+      callback:     function(box) {
+        console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+      }
+    }
+  );
+  wow.init();
+  document.getElementById('moar').onclick = function() {
+    var section = document.createElement('section');
+    section.className = 'section--purple wow fadeInDown';
+    this.parentNode.insertBefore(section, this);
+  };
+</script>
+
+
+</body>
+</html>

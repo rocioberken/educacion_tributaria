@@ -1,0 +1,344 @@
+/* Large desktop :1920px. */
+@media (min-width: 1920px) {
+    .container {width: 1230px;}
+    .nivo-caption {top: 50%;}
+    
+}
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .container {width:970px}
+    .logo a img {width: 100%;}
+    .mainmenu-area {
+        float: right;
+    }
+    
+}
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {width:750px}
+    .mobile-menu-area {display: block}
+}
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .container {
+		width:100%;	
+	}
+    .mobile-menu-area {display: block}
+    .header-logo-menu.stick{position: inherit}
+    .logo {
+        padding: 20px 0;
+        /*text-align: center;*/
+    }
+    
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {width:450px}
+    .slick-next {right: -77px;}    
+    .slick-prev {left: -77px;}
+}
+
+/****************************************************
+MediaQuerys
+/****************************************************/
+
+@media (max-width: 1200px) {
+    body {
+    }    
+    #header .nav-item{
+    font-size: 13px;
+    }
+    #contenidos{
+    padding: 2%;
+    }
+    .navbar-toggler{
+    position: absolute;
+    right: 5%;
+    padding: 5% 0;
+    }
+    #contenidos .icon-small {
+/*    padding: 1% 4%;
+*/  }
+    #caja1, #caja2  {
+    height: 185px;
+    }
+    #institucional .module{
+    height: 400px;        
+    }
+    .subt {    
+    margin: 0;
+    } 
+   #primaria .module {
+    height: 520px;
+    }
+
+}
+
+@media (max-width: 992px) {
+    body {
+    }
+    .img-portada {
+    width: 40%;
+    }
+    #header,
+    #header-audio{
+    padding: 2.5rem 1rem !important;
+    }
+    #header,
+    #header-audio .navbar-brand{
+    left: 0;
+    }
+    #caja1 .icon-small,
+    #caja2 .icon-small {
+    padding: 0 6%;
+    }
+    .box-gradient {
+    height: auto;
+    }
+    #caja1, #caja2 {
+    height: auto;
+    }
+    .separador-ver{
+    margin-bottom: 0;
+    }
+    .navbar-collapse {
+    padding-left: 0;
+    }    
+    /*.burger {
+    display: flex;
+    }*/
+    .burger {
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      top: 0;
+      right: 10px;
+      border-radius: 4px;
+      z-index: 10;
+      display: flex;
+    }
+    .burger span {
+      display: block;
+    }
+    .burger span, .burger span::before, .burger span::after {
+    display: block;
+    }
+    .navbar-collapse {
+    width: 100%;
+    z-index: 1;
+    padding: 0;
+    }
+    .clicked{
+    position: absolute;
+    top: 0;
+    }
+    .navbar-collapse {
+    width: 100%;
+    z-index: 1;
+    padding: 0;
+    }
+    #content-wrap {
+    padding-bottom: 5rem;
+    }
+    #menu a img {
+    display: none;
+    }
+    #redes li {
+    width: 20%;
+    margin: 1% 40%;
+    }
+    #menu .nav-item {
+    font-size: 18px;
+    width: 95%;
+    line-height: .6;
+    }
+    #header-audio .navbar-collapse {
+    padding-left: 0;
+    }
+    #nav {
+    margin-top: 2rem;
+    float: right;
+    width: 98%;
+    }
+    #nav div {
+    padding: 2.5% 10%;
+    }
+    .module-border-wrap {
+    width: 90%;
+    margin: 5%;
+    } 
+    .libro-subt {
+    display:none;
+    }
+    .subt {    
+    margin-top: 3rem;
+    }
+
+}
+@media (max-width: 767px) {
+    #banner .separador-ver {    
+    border-right: 0 solid rgba(0,0,0,0);
+    }
+    #banner .txt-portada {
+    font-size: 0.9rem;
+    padding: 0 ;
+    }  
+    .capital{
+    font-size: 5rem;
+    }
+    .titular{
+     font-size: 2.5rem;
+    }
+    .icon-small{
+    font-size: 1rem;
+    }
+    #footer img {
+    max-width: 60px;
+    }
+    #footer p {
+    font-size: 0.8rem;
+    padding-top: 1rem;
+    }
+   /* #footer .container{
+    max-width: 720px;
+    }*/
+}
+
+@media (max-width: 480px) {
+    #header img{
+     max-width: 80px;
+    }
+    #header-audio .navbar-brand{
+    padding: 5% 5% 2% 5% !important;
+    }
+    #header-audio .navbar-brand img{
+    max-width: 80px;
+    }   
+    #header .navbar-nav  {
+    margin-top: 1rem;
+    }
+    #header li .nav-link img {
+    max-width: 30px;
+    }
+    #header .navbar {
+    padding: 1rem 0rem;
+    font-size: 1.5rem;
+    }
+    #content-wrap {
+    padding-bottom: 6rem;
+    }    
+    .img-portada {
+    margin-left: 0%;
+    margin-right: 40%;
+    }
+    #caja1, #caja2 {
+    height: 200px;
+    } 
+    #contenidos {
+    padding: 2% 0;
+    height: auto;
+    } 
+    #contenidos .icon-small {
+    font-size: 0.9rem;
+    }
+    #contenidos .logo-concurso {
+    padding: 45% 0 0 0 ;
+    }
+    #contenidos .txt-vertical {
+    margin-top: 6rem;
+    font-size: 0.8rem;
+    } 
+    #contenidos .icon-small {
+    padding: 2px 2%;
+    }
+    .altura {
+    height: auto;
+    }
+    .col-7 { 
+    padding-right: 5px !important;
+    padding-left: 5px !important;  
+    }
+    .col-4 { 
+    padding-right: 5px !important;
+    padding-left: 5px !important;
+     }
+    .col-1 { 
+    padding-right: 5px !important;
+    padding-left: 5px !important;
+    }
+    #footer img {
+    max-width: 60px;
+    }
+    #footer p {
+    font-size: 0.8rem;
+    padding-top: 1rem;
+    }
+    .seccion{
+    margin-left: 120px;    
+    }
+    .seccion a h2{
+    font-size: 1.2rem;
+    padding-top: 10px;
+    max-width: 140px;
+    }
+    #audio {
+    min-height: 260vh;
+    }
+    .module {
+    padding: 1.2rem 0.1%;
+    display: flow-root;
+    }
+    .libros {
+    padding: 0 8%;
+    width: 100%; 
+    }
+    #nav {
+    width: 100%;
+    padding: 5%;
+    }
+    .tapa {
+    width: 100%;
+    }
+    .module-border-wrap {
+    width: 100%;
+    margin: 5rem 0;
+    }
+    #nav div {
+    padding: 3.5% 10%;
+    }
+    .libro-subt {
+    margin-left: 10%;
+    padding-top: 2.5rem;
+    }
+    #institucional {
+    min-height: 310vh;
+    }
+    #institucional .module{
+    height: auto;        
+    }
+    .subt{    
+    margin: 1rem 5%;
+    }
+    #primaria .module {
+    padding: 2%;
+    height: auto;
+    }
+    .escuelas-visitadas{
+    margin: 5%;
+    }
+    .carousel-item img{
+    display: none !important;
+    }
+    .carousel-item {
+    background-image: url("../img/banner-mobile.png");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    height: 40vh;
+    background-position-x: 50%;
+    }      
+    
+}
+
+
+

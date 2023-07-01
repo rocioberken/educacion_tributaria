@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>AGIP</title>
+<?php include 'js.css.inc.php'; ?>
+<link href="styles/calendarHack.css" rel="stylesheet" />
+</head>
+<body>
+		<div id="preloader"></div>
+	<div class="js">
+	<?php include 'responsive.inc.php'; ?>	
+	<div class="cFull relative clearfix">
+    <div id="preloader"></div>
+		<div class="wrap clearfix">		
+			<?php include 'header.inc.php'; ?>			
+			<div class="container relative clearfix cb p0">
+				<div class="contInternas col-lg-12 col-md-12 col-sm-12 col-xs-12 clearfix">
+					<div class="contSeccion col-lg-10 col-md-10 col-sm-10 col-xs-12">	
+						<div class="titular fS23 txL">
+							<span class="naranja">LIBROS</span>
+						</div>
+						<div class="fS22 mT20 txL">
+							<span class="violeta">AUDIO LIBROS / Libro 1 </span>
+						</div>
+					</div>
+					<span id="wait"></span>
+					<div class="container1">
+						<ul class="bb-custom-grid">
+							<li>
+								<div class="tapa"><img src="images/tapa_1.jpg" alt="" class="p0 img-responsive relative col-lg-12 col-md-12 col-sm-12 col-xs-12"/></div>
+								<div id="nav">
+									<div onclick="cuento1(1);" class="color1 manito blanco">Zumbidos</div>
+									<div onclick="cuento1(2);" class="color2 manito blanco">Camila y Olga</div>
+									<div onclick="cuento1(3);" class="color3 manito blanco">El Club</div>
+									<div onclick="cuento1(4);" class="color4 manito blanco">Rinc&oacute;n de los Chicos</div>
+									<div onclick="cuento1(5);" class="color5 manito blanco">Iluminaciones</div>
+									<div onclick="cuento1(6);" class="color6 manito blanco">La Morada</div>
+									<div onclick="cuento1(7);" class="color7 manito blanco">Las Amigas</div>
+									<div onclick="cuento1(8);" class="color8 manito blanco">Los Hermanos</div>
+									<div onclick="cuento1(9);" class="color9 manito blanco">Trincity</div>
+									<div onclick="cuento1(10);" class="color10 manito blanco">Video Club de Bartolo</div>
+								</div>
+							</li>
+						</ul>
+					</div><!-- /container -->
+					<!-- libro-->
+				</div>
+				<div class="contTresSecciones relative col-lg-offset-1 col-lg-10 col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-12 p0 mT20 mT0xs">			
+							<div class="relative tresSecciones col-xs-12 col-sm-4 col-md-4 col-lg-4 manito wow fadeInLeft" data-wow-delay="0.2s" onclick="window.open('audio-cuentos-1.php','_self');">
+								<img class="imgSecciones img-responsive" src="images/tapa-libro-1.jpg" height="138" alt="" class="relative" />
+								<div class="relative titSeccionesInter">Libro 1</div>
+							</div>
+							<div class="relative tresSecciones col-xs-12 col-sm-4 col-md-4 col-lg-4 manito wow fadeInLeft" data-wow-delay="0.2s" onclick="window.open('audio-cuentos-2.php','_self');">
+								<img class="imgSecciones img-responsive" src="images/tapa-libro-2.jpg" height="138" alt="" class="relative" />
+								<div class="relative titSeccionesInter">Libro 2</div>
+							</div>
+							<div class="relative tresSecciones col-xs-12 col-sm-4 col-md-4 col-lg-4 manito wow fadeInLeft" data-wow-delay="0.2s" onclick="window.open('audio-cuentos-3.php','_self');">
+								<img class="imgSecciones img-responsive" src="images/tapa-libro-3.jpg" height="138" alt="" class="relative" />
+								<div class="relative titSeccionesInter">Libro 3</div>
+							</div>
+							<div class="relative tresSecciones col-xs-12 col-sm-4 col-md-4 col-lg-4 manito wow fadeInLeft" data-wow-delay="0.2s" onclick="window.open('audio-cuentos-4.php','_self');">
+								<img class="imgSecciones img-responsive" src="images/tapa-libro-4.jpg" height="138" alt="" class="relative" />
+								<div class="relative titSeccionesInter">Libro 4</div>
+							</div>
+							<div class="relative tresSecciones col-xs-12 col-sm-4 col-md-4 col-lg-4 manito wow fadeInLeft" data-wow-delay="0.2s" onclick="window.open('audio-cuentos-5.php','_self');">
+								<img class="imgSecciones img-responsive" src="images/tapa-libro-5.jpg" height="138" alt="" class="relative" />
+								<div class="relative titSeccionesInter">Libro 5</div>
+							</div>
+						</div>
+				<!-- contInternas -->
+			</div>
+			<!-- container -->
+		</div>
+		<!-- wrap -->
+		<?php include 'footer.inc.php'; ?>	
+	</div>
+</div>
+<script type='text/javascript' src="scripts/wow.min.js"></script>
+<script>
+	$(document).ready(function(){
+		$('#leerMas').hover(function () {
+			$(this).addClass()
+		});
+	});
+	new WOW().init();
+</script>
+</body>
+</html>
